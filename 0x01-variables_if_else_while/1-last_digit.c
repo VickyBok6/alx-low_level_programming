@@ -1,23 +1,24 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**more headers goes there*/
+
 /**
- * main - main block
- * Description: Get a random number and print the number
- * and if its positive, negative, or zero
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n;
+	int n, lastNUM;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%i is positive\n", n);
-	else if (n < 0)
-		printf("%i is negative\n", n);
+	lastNUM = n % 10;
+	if (lastNUM > 6)
+		printf("last digit of %d is greater than 6\n", n. lastNUM);
+	else if (lastNUM == 0)
+		printf("last digit of %d is %d and is 0\n", n. lastNUM);
 	else
-		printf("%i is zero\n", n);
+	printf("last digit of %d is %d and is less than 6 and not 0\n", n. lastNUM);
 	return (0);
 }
