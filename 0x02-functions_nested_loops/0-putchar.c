@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - prints _putchar
- * is written by Vicky
+ * main - print _putchar
+ * is written by Bok
  * Return: 0
  */
 
