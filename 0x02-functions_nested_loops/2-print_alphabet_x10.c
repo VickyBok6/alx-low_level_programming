@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10(void) -> prints the lowercase alphabets
- * @c: 10 times the alphabet inlowercase
+ * @n: 10 times the alphabet inlowercase
  */
 void print_alphabet_x10(void)
 {
