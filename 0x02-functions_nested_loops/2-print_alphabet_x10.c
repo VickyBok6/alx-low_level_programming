@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet_x10(void) -> prints the lowercase alphabets
+ * @c: lowercase or upper case
  */
 void print_alphabet_x10(void)
 {
